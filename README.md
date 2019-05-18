@@ -29,8 +29,7 @@ Code Snippets for sql/postgresql
   ORDER  BY customer, total DESC NULLS LAST, id;
   ```
   
-- #### [PosgreSQL Recursive Query](http://www.postgresqltutorial.com/postgresql-recursive-query/)
-         [What is the equivalent PostgreSQL syntax to Oracle's CONNECT BY … START WITH?](https://stackoverflow.com/questions/24898681/what-is-the-equivalent-postgresql-syntax-to-oracles-connect-by-start-with)
+- #### [PosgreSQL Recursive Query](http://www.postgresqltutorial.com/postgresql-recursive-query/)	[What is the equivalent PostgreSQL syntax to Oracle's CONNECT BY … START WITH?](https://stackoverflow.com/questions/24898681/what-is-the-equivalent-postgresql-syntax-to-oracles-connect-by-start-with)
     ```sql
                     WITH base as(								   
 											WITH RECURSIVE parents AS (
